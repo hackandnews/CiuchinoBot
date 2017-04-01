@@ -5,7 +5,7 @@ from April import today
 from telegram import *
 
 def start(bot, update):
-    bot.sendMessage(update.message.chat_id, text="Happy April Fools' Day!")
+    bot.sendMessage(update.message.chat_id, text="Happy April Fool's day!")
 
 
 def main():
